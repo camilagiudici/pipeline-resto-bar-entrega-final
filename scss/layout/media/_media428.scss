@@ -1,0 +1,112 @@
+@media (max-width: 428px) {
+    
+    .imagenEmpleados img {
+        max-width: 85%; 
+        height: auto;
+    }
+
+    .contenedorBoton button {
+        font-size: 12px; 
+        padding: 6px 10px;
+    }
+
+    h1 {
+        font-size: 20px; 
+    }
+
+    .textoConoce {
+        font-size: 16px; 
+    }
+
+    .textoNosotros {
+        font-size: 12px; 
+        margin: 8px; 
+        line-height: 1.4;
+    }
+
+    footer {
+        font-size: 10px; 
+        h2 {
+            font-size: 12px; 
+        }
+    }
+
+    .botonBuscar{
+        font-size: 10px;
+        padding: 5px 8px;
+    }
+    
+    .mainNosotros section h1 {
+        font-size: 24px; 
+    }
+     .imagenCartelPipe {
+        width: 100%; 
+    }
+    .menuLogos {
+         height: 500px; 
+         background-size: cover; 
+    }
+
+    .pedidosTakeAway {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .divTakeAway, .divTakeAway2 {
+        width: 90%;
+    }
+
+    .divTakeAway2 h2 {
+        font-size: 50px;
+        margin-top: 20px;
+    }
+
+    .textoEncontranos {
+        margin-left: 0;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .imagenPedidosYa {
+        width: 80%;
+        margin-left: 0;
+    }
+
+    .ultimaSeccionPY {
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .divPedidosYa {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+
+    .primerSeccionLocal {
+        flex-direction: column;
+        margin-left: 10px;
+        text-align: center;
+    }
+
+    .localSeccion {
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .localSeccion div {
+        text-align: center;
+    }
+
+    .imagenResto {
+        width: 80%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .iframeMapa iframe {
+        width: 100%;
+        height: 300px;
+    }
+}

@@ -1,0 +1,152 @@
+@media (max-width: 320px) {
+    .mainNosotros {
+        padding: 0 10px; 
+    }
+
+    .imagenEmpleados img {
+        max-width: 90%; 
+        height: auto;
+    }
+
+    .contenedorBoton button {
+        font-size: 14px; 
+        padding: 8px 12px; 
+    }
+
+    .h1, .textoConoce {
+        font-size: 18px; 
+    }
+
+    .textoNosotros {
+        font-size: 14px; 
+        margin: 10px; 
+    }
+
+    footer {
+        font-size: 12px; 
+        h2 {
+        font-size: 14px;
+        }
+    }
+    .imagenCartelPipe {
+        width: 100%;
+    }
+
+    .menuLogos {
+        height: 400px; 
+        background-size: cover; 
+    }
+        .pedidosTakeAway {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .divTakeAway, .divTakeAway2 {
+        width: 90%; /* Reducir el tamaño de las columnas */
+    }
+
+    .divTakeAway2 h2 {
+        font-size: 40px; /* Reducir el tamaño del título */
+        margin-top: 20px;
+    }
+
+    .textoEncontranos {
+        margin-left: 0;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .imagenPedidosYa {
+        width: 90%; /* Ajustar imagen */
+        margin-left: 0;
+    }
+
+    .ultimaSeccionPY {
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .divPedidosYa {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+
+.botonPedirAca img{
+    display:none;
+}
+
+
+
+
+
+.pedidosTakeAway {
+    flex-direction: column;
+    align-items: center;
+}
+
+.divTakeAway, .divTakeAway2 {
+    width: 90%; /* Reducir el tamaño de las columnas */
+}
+
+.divTakeAway2 h2 {
+    font-size: 40px; /* Reducir el tamaño del título */
+    margin-top: 20px;
+}
+
+.textoEncontranos {
+    margin-left: 0;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.imagenPedidosYa {
+    width: 90%; /* Ajustar imagen */
+    margin-left: 0;
+}
+
+.ultimaSeccionPY {
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.divPedidosYa {
+    width: 100%;
+    margin-top: 40px;
+}
+
+
+.botonPedirAca img{
+display:none;
+}
+
+
+
+.primerSeccionLocal {
+    flex-direction: column;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.localSeccion {
+    flex-direction: column;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.localSeccion div {
+    text-align: center;
+}
+
+.imagenResto {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.iframeMapa iframe {
+    width: 100%;
+    height: 250px;
+}
+
+}

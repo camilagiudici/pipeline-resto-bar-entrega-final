@@ -1,0 +1,29 @@
+@media (max-width: 1075px) {
+    .primerSeccionLocal {
+        margin-left: 50px; /* Reducir el margen */
+        flex-direction: column; /* Cambiar la disposición a columna si es necesario */
+        align-items: center; /* Centrar el contenido */
+    }
+
+    .localSeccion {
+        flex-direction: column; /* Cambiar la disposición a columna */
+        margin-left: 20px; /* Reducir el margen */
+        margin-right: 20px; /* Reducir el margen */
+        gap: 15px; /* Ajustar el espacio entre elementos */
+    }
+
+    .imagenResto {
+        width: 100%; /* Hacer la imagen más pequeña para ajustarse */
+        margin-left: 0; /* Alinear al centro */
+    }
+
+    .iframeMapa {
+        margin-left: 0; /* Centrar el mapa */
+        margin-top: 30px; /* Reducir margen superior */
+    }
+
+    .iframeMapa iframe {
+        width: 100%; /* Asegurar que el iframe ocupe todo el contenedor */
+        height: auto; /* Ajustar altura proporcionalmente */
+    }
+}

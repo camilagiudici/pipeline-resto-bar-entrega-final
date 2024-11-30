@@ -1,0 +1,73 @@
+@media (max-width: 768px){
+    .seccionesInicio{
+        gap:50px;
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+    .pedidosTakeAway {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .divTakeAway, .divTakeAway2 {
+        width: 80%; /* Ajuste el tamaño de las columnas */
+    }
+
+    .divTakeAway2 h2 {
+        font-size: 60px;
+        margin-top: 20px;
+    }
+
+    .textoEncontranos {
+        margin-left: 0;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .imagenPedidosYa {
+        width: 90%;
+        margin-left: 0;
+    }
+
+    .ultimaSeccionPY {
+        flex-direction: column;
+        margin-top: 40px;
+    }
+
+    .divPedidosYa {
+        width: 100%;
+        margin-top: 40px;
+    }
+        .primerSeccionLocal {
+            margin-left: 30px; /* Reducir margen */
+            margin-top: 40px; /* Ajustar margen superior */
+            text-align: center; /* Centrar el texto */
+        }
+    
+        .localSeccion {
+            flex-direction: column; /* Cambiar la disposición a columna */
+            gap: 10px; /* Reducir el espacio entre elementos */
+            margin-left: 15px; /* Reducir margen */
+            margin-right: 15px; /* Reducir margen */
+        }
+    
+        .imagenResto {
+            width: 80%; /* Hacer la imagen más pequeña */
+            margin-left: auto; /* Centrar imagen */
+            margin-right: auto; /* Centrar imagen */
+        }
+    
+        .iframeMapa {
+            margin-top: 30px; /* Reducir margen superior */
+            margin-left: 0; /* Centrar el mapa */
+        }
+    
+        .iframeMapa iframe {
+            width: 100%; /* Asegurar que el iframe ocupe todo el contenedor */
+            height: auto; /* Ajustar altura proporcionalmente */
+        }
+    }

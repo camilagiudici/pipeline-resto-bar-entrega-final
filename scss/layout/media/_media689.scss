@@ -1,0 +1,52 @@
+@media (max-width: 689px){
+    form{
+        display: flex;
+        text-align: right;
+        align-items: center;
+        width: 100%; 
+        max-width: 350px;
+        margin: 0 auto;
+    }
+    input[type="search"]{
+        all: unset;
+        display: flex;
+        align-items: center;
+        margin-top: 20px;
+        margin-right: 10px;
+        top: 0;
+        right: 0;
+        font-family: Arial, sans-serif;
+        font-size: 18px;
+        padding: 8px; 
+
+    }
+
+
+    .primerSeccionLocal {
+        margin-left: 50px;
+        margin-right: 50px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .localSeccion {
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .localSeccion div {
+        text-align: center;
+    }
+
+    .imagenResto {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .iframeMapa iframe {
+        width: 100%;
+        height: 350px;
+    }
+}
